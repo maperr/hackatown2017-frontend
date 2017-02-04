@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+</head>
+
+<body>
+
+  <header>
+    <nav class="green lighten-1" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">MonParc</a>
+
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div ng-view></div>
+  </main>
+
+  <footer class="page-footer green lighten-1">
+    <div class="container">
+      <div class="row">
+        <a class="white-text">Made for <a class="orange-text text-lighten-3">Hackatown 2017</a></a>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        ©2017 Les Princesses, All rights reserved.
+        <a class="grey-text text-lighten-4 right" href="https://github.com/maperr/hackatown2017-frontend">GIT</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="views/map/map.js"></script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="/js/materialize.js"></script>
+  <script src="/js/init.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWLZC16Stxq_wGSznXhH7W5WMqVQT08n4"></script>
+</body>
+
+</html>
