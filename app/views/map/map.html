@@ -1,23 +1,36 @@
 <div class="section no-pad-bot" id="index-banner">
     <div class="container" ng-controller="mapCtrl">
-        <div class="row" >
-            <h4>Mes parcs</h4>
-            <div class="card green white-text" ng-if="parcs.favs.length === 0">
-                <div class="card-content">
-                    Sélectionnez un parc sur la carte pour le mettre dans vos favoris
+        <div class="row">
+            <div class="col">
+                <div class="card-panel green white-text  small-card">
+                    <h5>Mes parcs</h5>
                 </div>
             </div>
-            <div class="collection" ng-if="parcs.favs.length > 0">
-                <a class="collection-item" ng-repeat="parc in parcs.favs track by parc.id" href="#!/parc/{{ parc.id }}">
+
+            <div class="col s12">
+                <div class="card green white-text z-depth-4" ng-if="parcs.favs.length === 0">
+                    <div class="card-content">
+                        Sélectionnez un parc sur la carte pour le mettre dans vos favoris
+                    </div>
+                </div>
+                <div class="collection z-depth-4" ng-if="parcs.favs.length > 0">
+                    <a class="collection-item" ng-repeat="parc in parcs.favs track by parc.id" href="#!/parc/{{ parc.id }}">
                     {{parc.name}} <i class="material-icons secondary-content">send</i>
                 </a>
+                </div>
             </div>
         </div>
 
-        <div class="row" id="map-container">
-            <h4>Carte</h4>
-            <div class="card">
-                <div class="card-content" id="map">
+        <div class="row" id="map-container">                
+            <div class="col">
+                <div class="card-panel green white-text small-card">
+                    <h5>Carte</h5>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card z-depth-4">
+                    <div class="card-content" id="map">
+                    </div>
                 </div>
             </div>
         </div>

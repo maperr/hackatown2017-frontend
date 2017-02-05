@@ -2,35 +2,57 @@
     <div class="container">
         <div class="row" ng-if="loaded">
             <div class="col s12">
-                <h5 class="light" ng-if="parc.events">Évèvements</h5>
-                <div class="card hoverable" ng-repeat="event in parc.events">
-                    <div class="card-content">
-                        <span class="card-title activator">{{event.name}}<i class="material-icons right">more_vert</i></span>
-                        {{event.start_time | date}} au {{event.end_time | date}}
+                <div class="row">
+                    <div class="col" ng-if="parc.events.length > 0">
+                        <div class="card-panel green white-text small-card">
+                            <h5>Évèvements</h5>
+                        </div>
                     </div>
-                    <div class="card-action" ng-if="event.id">
-                        <a href="https://www.facebook.com/{{event.id}}" target="_blank">voir sur facebook</a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title">{{event.name}}<i class="material-icons right">close</i></span>
-                        {{event.description}}
+                    <div class="col s12">
+                        <div class="card hoverable" ng-repeat="event in parc.events">
+                            <div class="card-content">
+                                <span class="card-title activator">{{event.name}}<i class="material-icons right">more_vert</i></span>                                {{event.start_time | date}} au {{event.end_time | date}}
+                            </div>
+                            <div class="card-action" ng-if="event.id">
+                                <a href="https://www.facebook.com/{{event.id}}" target="_blank">voir sur facebook</a>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">{{event.name}}<i class="material-icons right">close</i></span> {{event.description}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col m6 s12" ng-if="parc.twitter.length > 0">
-                <h5 class="light">Fil Twitter</h5>
-                <div class="card hoverable" ng-repeat="tweet in parc.twitter">
-                    <div class="card-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="card-panel green white-text small-card">
+                            <h5>Fil Twitter</h5>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="card hoverable" ng-repeat="tweet in parc.twitter">
+                            <div class="card-content">
 
-                        {{tweet.text}}
+                                {{tweet.text}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col m6 s12">
-                <h5 class="light">Rating</h5>
-                <div class="card">
-                    <div class="card-content">
-                        {{parc.ratings}}
+                <div class="row">
+                    <div class="col">
+                        <div class="card-panel green white-text small-card">
+                            <h5>Rating</h5>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-content">
+                                {{parc.ratings}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

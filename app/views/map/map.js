@@ -83,6 +83,7 @@ angular.module('myApp.map', ['ngRoute'])
       $scope.parcs.favs.push($scope.parcs.selectedPark);
 
       localStorage.setItem("favParcs", JSON.stringify($scope.parcs.favs));
+
     }
 
     $scope.removePark = function (id) {
@@ -165,7 +166,7 @@ angular.module('myApp.map', ['ngRoute'])
         ctrl.onUnsubscribe({ id: this.park.id });
       };
 
-      $scope.load = function() {
+      $scope.load = function () {
         var elemActivity = angular.element(document.querySelector('#myBarActivity'));
         var elemPopularity = angular.element(document.querySelector('#myBarPopularity'));
         var elemClean = angular.element(document.querySelector('#myBarClean'));
@@ -181,50 +182,50 @@ angular.module('myApp.map', ['ngRoute'])
 
         function frame() {
           if (widthPopularity >= percentagePopularity && widthActivity >= percentageActivity && widthClean >= percentageClean) {
-              clearInterval(id);
+            clearInterval(id);
           }
 
           if (widthPopularity < percentagePopularity) {
-              widthPopularity++;
+            widthPopularity++;
 
-              elemPopularity[0].style.width = widthPopularity + '%';
+            elemPopularity[0].style.width = widthPopularity + '%';
 
-              document.getElementById("demoPopularity").innerHTML = widthPopularity * 1 + '%';
+            document.getElementById("demoPopularity").innerHTML = widthPopularity * 1 + '%';
 
-              if(widthPopularity == 33) {
-                document.getElementById("myBarPopularity").className = "w3-progressbar w3-yellow";
-              } else if(widthPopularity == 66) {
-                document.getElementById("myBarPopularity").className = "w3-progressbar w3-green";
-              } 
+            if (widthPopularity == 33) {
+              document.getElementById("myBarPopularity").className = "w3-progressbar w3-yellow";
+            } else if (widthPopularity == 66) {
+              document.getElementById("myBarPopularity").className = "w3-progressbar w3-green";
+            }
           }
 
           if (widthActivity < percentageActivity) {
-              widthActivity++;
+            widthActivity++;
 
-              elemActivity[0].style.width = widthActivity + '%';
+            elemActivity[0].style.width = widthActivity + '%';
 
-              document.getElementById("demoActivity").innerHTML = widthActivity * 1 + '%';
+            document.getElementById("demoActivity").innerHTML = widthActivity * 1 + '%';
 
-              if(widthActivity == 33) {
-                document.getElementById("myBarActivity").className = "w3-progressbar w3-yellow";
-              } else if(widthActivity == 66) {
-                document.getElementById("myBarActivity").className = "w3-progressbar w3-green";
-              } 
-          } 
+            if (widthActivity == 33) {
+              document.getElementById("myBarActivity").className = "w3-progressbar w3-yellow";
+            } else if (widthActivity == 66) {
+              document.getElementById("myBarActivity").className = "w3-progressbar w3-green";
+            }
+          }
 
           if (widthClean < percentageClean) {
-              widthClean++;
+            widthClean++;
 
-              elemClean[0].style.width = widthClean + '%';
+            elemClean[0].style.width = widthClean + '%';
 
-              document.getElementById("demoClean").innerHTML = widthClean * 1 + '%';
+            document.getElementById("demoClean").innerHTML = widthClean * 1 + '%';
 
-              if(widthClean == 33) {
-                document.getElementById("myBarClean").className = "w3-progressbar w3-yellow";
-              } else if(widthClean == 66) {
-                document.getElementById("myBarClean").className = "w3-progressbar w3-green";
-              } 
-          } 
+            if (widthClean == 33) {
+              document.getElementById("myBarClean").className = "w3-progressbar w3-yellow";
+            } else if (widthClean == 66) {
+              document.getElementById("myBarClean").className = "w3-progressbar w3-green";
+            }
+          }
         }
       }
     },
