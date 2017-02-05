@@ -1,0 +1,5 @@
+<div>
+    <h5>{{$ctrl.park.name || "Sans nom"}}</h5>
+    <a class='waves-effect waves-light btn green' ng-show="!$ctrl.parc.subscribed" ng-click="$ctrl.subscribe()">Ajouter aux favoris</a>
+    <a class='waves-effect waves-light btn red' ng-show="$ctrl.parc.subscribed" ng-click="$ctrl.unsubscribe()">Retirer aux favoris</a>
+</div>
