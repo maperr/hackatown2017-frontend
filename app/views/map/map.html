@@ -7,11 +7,11 @@
                     Sélectionnez un parc sur la carte pour le mettre dans vos favoris
                 </div>
             </div>
-            <ul class="collection" ng-if="parcs.favs.length > 0">
-                <li class="collection-item" ng-repeat="parc in parcs.favs track by parc.id">
-                    {{parc.name}}
-                </li>
-            </ul>
+            <div class="collection" ng-if="parcs.favs.length > 0">
+                <a class="collection-item" ng-repeat="parc in parcs.favs track by parc.id" href="#!/parc/{{ parc.id }}">
+                    {{parc.name}} <i class="material-icons secondary-content">send</i>
+                </a>
+            </div>
         </div>
 
         <div class="row" id="map-container">
