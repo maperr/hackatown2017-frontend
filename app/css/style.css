@@ -21,9 +21,35 @@ body {
 
 main {
   flex: 1 0 auto;
-  background-color: #fafafa;
 }
 
 #map{
   height: calc(100vh - 50px);
+}
+
+#background{
+  position: relative;
+}
+
+
+#background::after {
+  content: "";
+  background-image: url(/img/bg1.jpg);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+  filter: contrast(0.4) blur(3px) brightness(1.5);
+}
+
+.collection a.collection-item:not(.active):hover {
+  background-color: #66BB6A;
+  color:white;
+}
+
+.collection a.collection-item:not(.active):hover .secondary-content {
+  color:white;
 }
