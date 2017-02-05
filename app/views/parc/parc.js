@@ -20,12 +20,13 @@ angular.module('myApp.parc', ['ngRoute'])
         $scope.loaded = true;
 
           $.getJSON(endpoint + "/twitter/feedbycontent/" + window.encodeURIComponent($scope.parc.name), function (data) {
-            $scope.$apply(function () { $scope.parc.twitter = data.statuses; });
+            $scope.$apply(function () { 
+              console.log(data);
+              $scope.parc.twitter = data.statuses; });
           });
 
         $.getJSON(endpoint + "/facebook/eventsFrom/" + window.encodeURIComponent($scope.parc.fbid), function (data) {
           $scope.$apply(function () {
-            console.log(data);
             $scope.parc.events = data.filter(function (event) {
               return new Date(event.start_time) > new Date()
             }).sort(function (o1, o2) {

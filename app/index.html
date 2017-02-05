@@ -20,7 +20,7 @@
   <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <link rel='shortcut icon' type='image/x-icon' href='/img/goodlogo.ico' />
 </head>
 
 <body>
@@ -34,9 +34,12 @@
     }
   </style>
 
-  <header>
+  <header style="opacity: 0.8">
     <nav class="green darken-2 top-nav" role="navigation" style="height:65px; line-height: 65px">
-      <div class="nav-wrapper container"><a id="lepage-tit" href="#" class="brand-logo light" style="font-size: 45px; font-style: italic">MonParc</a>
+      <div class="nav-wrapper container">
+        <img src="/img/logo.svg" style="height: 45px;"/>
+        <a id="lepage-tit" href="#" class="brand-logo light" style="font-size: 45px; font-style: italic">MonParc</a>
+        <div class="secondary-content white-text"></div>
 
       </div>
     </nav>
@@ -46,7 +49,7 @@
     <div ng-view></div>
   </main>
 
-  <footer class="page-footer green darken-2">
+  <footer class="page-footer green darken-2" style="opacity: 0.8">
     <div class="container">
       <div class="row">
         <a class="white-text">Made for <a class="orange-text text-lighten-3">Hackatown 2017</a></a>

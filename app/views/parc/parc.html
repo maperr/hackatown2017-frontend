@@ -4,7 +4,7 @@
             <div class="col s12">
                 <div class="row">
                     <div class="col" ng-if="parc.events.length > 0">
-                        <div class="card-panel green white-text small-card">
+                        <div class="card-panel green white-text small-card  z-depth-0">
                             <h5>Évèvements</h5>
                         </div>
                     </div>
@@ -26,15 +26,24 @@
             <div class="col m6 s12" ng-if="parc.twitter.length > 0">
                 <div class="row">
                     <div class="col">
-                        <div class="card-panel green white-text small-card">
+                        <div class="card-panel green white-text small-card z-depth-0">
                             <h5>Fil Twitter</h5>
                         </div>
                     </div>
-                    <div class="col s12">
+                    <div class="col s12 scrollable" >
                         <div class="card hoverable" ng-repeat="tweet in parc.twitter">
                             <div class="card-content">
-
-                                {{tweet.text}}
+                                <div class="row" style="margin-bottom: 0;">
+                                    <div class="col">
+                                        <div class="thumbnail z-depth-1" style="border-radius: 3px;overflow: hidden;">
+                                            <img ng-src="{{tweet.user.profile_image_url}}">
+                                        </div>
+                                    </div>
+                                    <div class="col s9">
+                                        <span style="font-weight: bold">{{tweet.user.name}}</span>
+                                        <br /> {{tweet.text}}
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -43,7 +52,7 @@
             <div class="col m6 s12">
                 <div class="row">
                     <div class="col">
-                        <div class="card-panel green white-text small-card">
+                        <div class="card-panel green white-text small-card z-depth-0">
                             <h5>Rating</h5>
                         </div>
                     </div>
