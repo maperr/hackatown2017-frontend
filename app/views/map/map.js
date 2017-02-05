@@ -12,7 +12,8 @@ angular.module('myApp.map', ['ngRoute'])
   .controller('mapCtrl', ["$scope", "$compile", function ($scope, $compile) {
     $scope.parcs = {
       favs: [],
-      selectedPark: {}
+      selectedPark: {},
+      selectedFeature: {}
     }
     $scope.ids = 0;
 
@@ -66,13 +67,14 @@ angular.module('myApp.map', ['ngRoute'])
     }
 
     $scope.addPark = function (park) {
-      if (!$scope.parcs.selectedPark.subscribed) {
-        $scope.parcs.selectedPark.subscribed = true;
-        $scope.parcs.favs.push($scope.parcs.selectedPark);
-      }
+      $scope.parcs.selectedFeature.setProperty("subscribed", true);
+      $scope.parcs.selectedPark.subscribed = true;
+      $scope.parcs.favs.push($scope.parcs.selectedPark);
     }
 
     $scope.removePark = function (id) {
+      $scope.parcs.selectedFeature.setProperty("subscribed", false);
+      $scope.parcs.selectedPark.subscribed = false;
       $scope.parcs.favs = $scope.parcs.favs.filter(function (item) { return item.id !== id });
     }
 
@@ -84,6 +86,7 @@ angular.module('myApp.map', ['ngRoute'])
 
       //open new infowindow
       $scope.parcs.selectedPark = event.feature.f;
+      $scope.parcs.selectedFeature = event.feature;
 
       var infowindow = new google.maps.InfoWindow({
         content: "<park-detail park='parcs.selectedPark' on-subscribe='addPark(park)' on-unsubscribe='removePark(id)' />",
@@ -110,8 +113,10 @@ angular.module('myApp.map', ['ngRoute'])
     function initMapStyles() {
 
       map.data.setStyle(function (feature) {
+        //todo vary color by scrore
+        var color = feature.getProperty("subscribed") ? "green" : "#a3bab3";
         return ({
-          fillColor: "green",
+          fillColor: color,
           strokeWeight: 0,
           fillOpacity: 0.7,
           strokeColor: "white",
@@ -121,8 +126,9 @@ angular.module('myApp.map', ['ngRoute'])
 
 
       map.data.addListener('mouseover', function (event) {
-        map.data.revertStyle();
-        map.data.overrideStyle(event.feature, { fillColor: 'darkgreen' });
+        if(!event.feature.getProperty("subscribed")){
+          map.data.overrideStyle(event.feature, { fillColor: '#89afa4' });
+        }
       });
 
       map.data.addListener('mouseout', function (event) {
@@ -137,12 +143,10 @@ angular.module('myApp.map', ['ngRoute'])
       var ctrl = this;
 
       ctrl.subscribe = function () {
-         ctrl.park.subscribed = true;
         ctrl.onSubscribe({ park: ctrl.park });
       };
 
       ctrl.unsubscribe = function () {
-         ctrl.park.subscribed = false ;
         ctrl.onUnsubscribe({ id: this.park.id });
       };
 
