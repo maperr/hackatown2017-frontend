@@ -83,9 +83,8 @@ angular.module('myApp.map', ['ngRoute'])
         $scope.parcs.selectedFeature.setProperty("subscribed", true);
         $scope.parcs.selectedPark.subscribed = true;
         $scope.parcs.favs.push($scope.parcs.selectedPark);
-
         localStorage.setItem("favParcs", JSON.stringify($scope.parcs.favs));
-    }
+      }
 
     $scope.removePark = function(id) {
         $scope.parcs.selectedFeature.setProperty("subscribed", false);
@@ -261,6 +260,7 @@ angular.module('myApp.map', ['ngRoute'])
 
 .component('parkDetail', {
     templateUrl: 'views/map/parkDetail.html',
+<<<<<<< HEAD
     controller: function($scope) {
         var ctrl = this;
 
@@ -333,6 +333,79 @@ angular.module('myApp.map', ['ngRoute'])
                     }
                 }
             }
+=======
+    controller: function ($scope) {
+      var ctrl = this;
+
+      ctrl.subscribe = function () {
+        ctrl.onSubscribe({ park: ctrl.park });
+      };
+
+      ctrl.unsubscribe = function () {
+        ctrl.onUnsubscribe({ id: this.park.id });
+      };
+
+      $scope.load = function () {
+        var elemActivity = angular.element(document.querySelector('#myBarActivity'));
+        var elemPopularity = angular.element(document.querySelector('#myBarPopularity'));
+        var elemClean = angular.element(document.querySelector('#myBarClean'));
+
+        var id = setInterval(frame, 15);
+        var widthActivity = 0;
+        var widthPopularity = 0;
+        var widthClean = 0;
+
+        var percentageActivity = ctrl.park.ratingActivity;
+        var percentagePopularity = ctrl.park.ratingPopularity;
+        var percentageClean = ctrl.park.ratingClean;
+
+        function frame() {
+          if (widthPopularity >= percentagePopularity && widthActivity >= percentageActivity && widthClean >= percentageClean) {
+            clearInterval(id);
+          }
+
+          if (widthPopularity < percentagePopularity) {
+            widthPopularity++;
+
+            elemPopularity[0].style.width = widthPopularity + '%';
+
+            document.getElementById("demoPopularity").innerHTML = widthPopularity * 1 + '%';
+
+            if (widthPopularity == 33) {
+              document.getElementById("myBarPopularity").className = "w3-progressbar w3-yellow";
+            } else if (widthPopularity == 66) {
+              document.getElementById("myBarPopularity").className = "w3-progressbar w3-green";
+            }
+          }
+
+          if (widthActivity < percentageActivity) {
+            widthActivity++;
+
+            elemActivity[0].style.width = widthActivity + '%';
+
+            document.getElementById("demoActivity").innerHTML = widthActivity * 1 + '%';
+
+            if (widthActivity == 33) {
+              document.getElementById("myBarActivity").className = "w3-progressbar w3-yellow";
+            } else if (widthActivity == 66) {
+              document.getElementById("myBarActivity").className = "w3-progressbar w3-green";
+            }
+          }
+
+          if (widthClean < percentageClean) {
+            widthClean++;
+
+            elemClean[0].style.width = widthClean + '%';
+
+            document.getElementById("demoClean").innerHTML = widthClean * 1 + '%';
+
+            if (widthClean == 33) {
+              document.getElementById("myBarClean").className = "w3-progressbar w3-yellow";
+            } else if (widthClean == 66) {
+              document.getElementById("myBarClean").className = "w3-progressbar w3-green";
+            }
+          }
+>>>>>>> cce7caed4ef70e267f41b1b17078c60adaa8ca6f
         }
     },
     bindings: {
