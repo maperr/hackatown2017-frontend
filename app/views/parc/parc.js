@@ -10,11 +10,5 @@ angular.module('myApp.parc', ['ngRoute'])
   }])
 
   .controller('parcCtrl', ['$scope', '$routeParams', function ($scope, $routeParams) {
-    $scope.loaded = false;
-    $scope.parc = {};
-    $.getJSON("data/allparcs.geojson", function(json) {
-      $scope.parc = json.features.filter(function(feat){return feat.id === $routeParams.parcId})[0].properties;
-      $scope.loaded = true;
-      $scope.$apply();
-    });
+    console.log($routeParams);
   }]);
