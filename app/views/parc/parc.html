@@ -2,10 +2,14 @@
     <div class="container">
         <div class="row" ng-if="loaded">
             <div class="col s12">
+                <h1 class="white-text blue lighten-2 card-panel" style="opacity: 0.8">
+                    {{parc.name}}  
+                </h1>
+                <div class="white-text" style="font-size: 30px; margin:0px">Note: {{parc.averageRating}}</div>
                 <div class="row">
                     <div class="col" ng-if="parc.events.length > 0">
                         <div class="card-panel green white-text small-card  z-depth-0">
-                            <h5>Évèvements</h5>
+                            <h5>Évévements</h5>
                         </div>
                     </div>
                     <div class="col s12">
@@ -57,9 +61,9 @@
                         </div>
                     </div>
                     <div class="col s12">
-                        <div class="card">
-                            <div class="card-content">
-                                {{parc.ratings}}
+                        <div class="card" >
+                            <div class="card-content" >
+                                <canvas id="chart" width="400" height="300"></canvas>
                             </div>
                         </div>
                     </div>
