@@ -1,0 +1,2324 @@
+{
+	"rep_parcs": {
+		"date_generation_xml": {
+			"__cdata": "2017-02-01 13:54:44"
+		},
+		"parcs": {
+			"parc": {
+				"nom_fr": {
+					"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+				},
+				"description_fr": {
+					"__cdata": "<p><strong>Un parc avant-gardiste à découvrir</strong></p>\n<p>Le complexe environnemental de Saint-Michel, essentiellement axé sur le développement durable,&nbsp;est un parc&nbsp;unique en son genre couronné de plusieurs prix internationaux en environnement.</p>\n<p>En effet, ancienne carrière puis site d&#039;enfouissement en voie de renaturalisation, il se transforme progressivement en un beau grand parc qui rallie nature, culture, sciences et sports, et le visiteur peut ainsi assister à sa métamorphose.</p>\n<p>En attendant de pouvoir profiter pleinement de tout l&#039;espace, il est possible de circuler sur le sentier polyvalent&nbsp;qui le ceinture et de voir les imposantes falaises sculptées par des décennies d&#039;excavation. Également, en suivant un guide-animateur, explorez les innovations environnementales, dont un centre de récupération qui traite toutes les matières recyclables des Montréalais, une centrale qui convertit en électricité les biogaz produits par le site d&#039;enfouissement et des sites de compostage.</p>"
+				},
+				"url_fiche_parc_fr": {
+					"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_parc?id=86"
+				},
+				"photo": {
+					"url": {
+						"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/me_prc_velo_pap_denis_labine_id86.jpg"
+					},
+					"alt_fr": {
+						"__cdata": "Complexe environnemental de Saint-Michel (CESM)"
+					}
+				},
+				"date_creation": {
+					"__cdata": "2011-11-28 10:02:51"
+				},
+				"date_modification": {
+					"__cdata": "2017-01-20 09:52:57"
+				},
+				"ouverture_parc": {
+					"ouverture": {
+						"_type": "1",
+						"__cdata": "Ouvert"
+					}
+				},
+				"section_au_programme": {
+					"bandeau": "",
+					"url_xml_top_evenements_fr": {
+						"__cdata": "http://montreal2.qc.ca/rep_parcs/media/xml/application/cache_evenements_pc86.xml"
+					},
+					"url_xml_top_actualites_fr": {
+						"__cdata": "http://montreal2.qc.ca/rep_parcs/media/xml/application/cache_actualites_pc86.xml"
+					},
+					"url_actualites_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_utilitaires/rep_actualites/coll_actualites?na=70"
+					},
+					"a_noter_prog_fr": {
+						"__cdata": ""
+					},
+					"publications": ""
+				},
+				"section_activites": {
+					"activites": {
+						"activite": [
+							{
+								"nom_fr": {
+									"__cdata": "Activité pour les groupes"
+								},
+								"description_fr": {
+									"__cdata": "<p><strong>LA TOHU</strong></p>\n<p><strong>Bâtissons le CESM</strong></p>\n<p>Au cours de cette activité, les jeunes sont sensibilisés à l&#039;enjeu de la gestion des matières résiduelles. Trouvez avec eux des solutions durables aux diverses problématiques issues des 40 millions de tonnes de déchets enfouis dans le CESM, dans une optique de revitalisation du site. Après une brève introduction sur le CESM à l&#039;aide d&#039;une maquette, les jeunes sont appelés à l&#039;aménager pour en faire un parc. L&#039;activité se poursuit avec un point de vue panoramique sur le CESM et le parc Frédéric-Back et permet de saisir l&#039;importance des espaces verts en ville.</p>\n<p><br /><strong>Durée :</strong> 90 minutes<br /><strong>Pour</strong> les enfants de 6/7 ans<br /><strong>Maximum</strong> : 25 personnes</p>\n<p><strong>Gratuit pour les Montréalais</strong>. Enfants, étudiants et ainés : 4 $ ; adultes : 6 $</p>\n<p><strong>Visite technologique guidée du CESM</strong></p>\n<p>Cette visite est destinée aux professionnels et aux étudiants universitaires au cycle supérieur qui uvrent dans le domaine des technologies de l&#039;environnement ou d&#039;autres domaines connexes. Le circuit présente, en profondeur, les installations technologiques du CESM. <br />Durée : entre 2 et 3 heures</p>\n<p>Maximum : 40 personnes<br /><strong>Gratuit</strong></p>"
+								},
+								"_id": "113"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Camps de jour de la relâche scolaire  HIVER 2017"
+								},
+								"description_fr": {
+									"__cdata": "<p><strong>Semaine de relâche à la TOHU</strong> <br /><strong>6 AU 10 MARS 2017</strong> <br />UNE FOULE D&#039;ACTIVITÉS BRANCHÉES! À la TOHU, relâche scolaire rime avec plaisirs ! Que ce soit pour jouer dans la neige ou encore se réchauffer, une foule d&#039;ateliers et d&#039;activités pour tous les goûts vous attendent. Adeptes de cirque, nous avons bien entendu pensé à vous ! Un vaste parcours de cirque sera déployé dans notre salle circulaire sous l&#039;égide des instructeurs de l&#039;École nationale de cirque (en formule payante). Joignez-vous à la TOHU pour une relâche 100% plaisirs garantis !</p>"
+								},
+								"_id": "112"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Camps de jour été 2017"
+								},
+								"description_fr": {
+									"__cdata": "<p><strong>Au TAZ</strong></p>\n<p>Camp sportif basé sur le skateboard, le BMX ou la trottinette</p>\n<p>Ateliers de mise en forme, apprentissage des techniques avec des professeurs expérimentés, atelier de mécanique et d&#039;entretien de l&#039;équipement, séance photo, compétition à la fin de la semaine, BBQ et plus encore !</p>\n<p>Pour les jeunes de 9 à 15 ans&nbsp;</p>\n<p>Cinq camps d&#039;une durée d&#039;une semaine offerts à l&#039;été 2017 (juillet et août)</p>\n<p>215 $/semaine (taxes incluses)</p>\n<p>9 h à 16 h</p>\n<p>Service de garde offert sur place. Places limitées.</p>\n<p><strong>Infos et inscriptions : 514 284-0051 x 101</strong> //<a href=\"mailto:taz@taz.ca\" target=\"_blank\"> taz@taz.ca</a> //<a href=\"%20http:/www.taz.ca/camp/\" target=\"_blank\"> http://www.taz.ca/camp/</a></p>"
+								},
+								"_id": "122"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Marche"
+								},
+								"description_fr": {
+									"__cdata": "<p>5,5 km</p>"
+								},
+								"_id": "106"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Observation hivernale des oiseaux"
+								},
+								"description_fr": {
+									"__cdata": "<p><strong>Explorez la faune et la flore du Parc Frédéric-Back</strong></p>\n<p>Quiscale bronzé, Étourneau sansonnet, Merle d&#039;Amérique, Bruant familier, Bruant chanteur, Carouge à épaulettes, Pic flamboyant, Pic maculé, Canard colvert, Pluvier kildir, Urubu à tête rouge, Faucon pèlerin.<br />Guide d&#039;observation disponible gratuitement à la billetterie de la TOHU ou en ligne : <a href=\"http://tohu.ca/fr/activites/\" target=\"_blank\">http://tohu.ca/fr/activites/</a></p>\n<p>Ce guide d&#039;observation répertorie les principales espèces d&#039;oiseaux, de mammifères et de végétaux visibles lors d&#039;une promenade sur la voie polyvalente du parc.&nbsp;</p>"
+								},
+								"_id": "63"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Patin à roues alignées (intérieur)"
+								},
+								"description_fr": {
+									"__cdata": "<p>Cette activité se déroule au TAZ, le plus grand « skatepark » intérieur au Canada, plus précisément, à l&#039;espace Roulodôme qui se veut un espace familial ouvert de près de 22 000 pieds carrés dédié entre autres à la pratique du patin récréatif et à l&#039;ensemble des sports sur roues. Espace de grimpe, zone d&#039;essai de slackline, zones de fêtes, cours et « mini skatepark » avec modules d&#039;initiation vous attendent pour bouger autrement !</p>\n<p>Renseignements : <a href=\"http://www.taz.ca/\" target=\"_blank\">www.taz.ca</a></p>"
+								},
+								"_id": "119"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Planche à roulette (intérieur)"
+								},
+								"description_fr": {
+									"__cdata": "<p>Cette activité se déroule au TAZ, le plus grand Skatepark intérieur au Canada. Le TAZ offre un espace de pratique de plus de 60 000 pieds carrés, meublé de modules acrobatiques. Parmi nos modules les plus populaires : Quarter Pipe, Roll in (12 pieds), Bowls, Box Jump, mini rampes, Ledge, rails, Rythm section, Foam pit, section pour débutants.</p>\n<p>Renseignements : <a href=\"http://www.taz.ca/\" target=\"_blank\">www.taz.ca</a></p>"
+								},
+								"_id": "120"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Raquette"
+								},
+								"description_fr": {
+									"__cdata": "<p>5,5 km</p>"
+								},
+								"_id": "65"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Vélo d&#039;hiver"
+								},
+								"description_fr": {
+									"__cdata": "<p>5,5 km</p>"
+								},
+								"_id": "103"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Vélo intérieur"
+								},
+								"description_fr": {
+									"__cdata": "<p>Cette activité se déroule au TAZ, le plus grand « skatepark »&nbsp;intérieur au Canada. Le TAZ offre un espace de pratique de plus de 60 000 pieds carrés, meublé de modules acrobatiques. Parmi nos modules les plus populaires : Quarter Pipe, Roll in (12 pieds), Bowls, Box Jump, mini rampes, Ledge, rails, Rythm section, Foam pit section pour débutants.</p>\n<p>Renseignements : <a href=\"http://www.taz.ca/\" target=\"_blank\">www.taz.ca</a></p>"
+								},
+								"_id": "79"
+							}
+						]
+					},
+					"galerie_photos": {
+						"url_flickr": {
+							"_tag": "parc_complexe_env_saint_michel",
+							"__cdata": "http://www.flickr.com/photos/parcs/tags/parc_complexe_env_saint_michel"
+						}
+					},
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": "<p>Pour en prendre connaisance:</p>"
+						},
+						"reglement": {
+							"titre_fr": {
+								"__cdata": "Connaissez-vous les règlements des grands parcs?"
+							},
+							"url_fr": {
+								"__cdata": "http://ville.montreal.qc.ca/portal/page?_pageid=7377,91008174&_dad=portal&_schema=PORTAL"
+							},
+							"_id": "23"
+						}
+					}
+				},
+				"section_services": {
+					"services_fr": {
+						"__cdata": "<p><strong>À la TOHU</strong> <br />- Bistro de la Tohu (viennoiseries, repas légers, boissons et grignotines) <br />- Accueil des camps de jours<br />- Location de la salle pour des évènements privés et corporatifs<br />- Boutique de cirque<br />- Accès Internet sans fil<br />- Stationnement</p>\n<p><strong>Stade de soccer</strong><br />- Machines distributrices<br />- Location de salles et de sites extérieurs<br />- Boutique de sport (Evangelista sport)<br />- Accès Internet sans fil<br />- Stationnement 170 places &nbsp;(incluant des bornes de recharge pour les véhicules électriques et des supports à vélo)</p>\n<p><strong>Au TAZ</strong><br />- Location d&#039;équipements sportifs <br />- Équipe d&#039;animation <br />- Fêtes d&#039;enfants <br />- Cours de groupe <br />- Cours privés ou semi-privés <br />- Cours parents/enfants <br />- Camps de jour <br />- Casse-croûte<br />- Machines distributrices <br />- Service d&#039;entretien et de réparation <br />- Boutique Versus (spécialité vélo, BMX et trottinette) <br />- Skate Plaza<br />- Location de salle <br />- Stationnement gratuit <br />- Accès Internet sans fil<br /><br /></p>"
+					}
+				},
+				"section_a_voir": {
+					"a_voir_fr": {
+						"__cdata": "<ul>\n<li>Le pavillon de la TOHU*, la&nbsp;Cité des arts du cirque et ses expositions. La TOHU présente également des spectacles liés à l&#039;univers du cirque;</li>\n<li>Le&nbsp;centre de récupération qui traite toutes les matières recyclables des Montréalais;</li>\n<li>La centrale qui convertit en électricité les biogaz produits par le site d&#039;enfouissement;</li>\n<li>Les sites de compostage.</li>\n</ul>\n<p><em>* Toutes les visites sont accompagnées par un guide-animateur de la TOHU, pavillon&nbsp;d&#039;accueil officiel des visiteurs du CESM.</em></p>\n<ul>\n<li>TAZ : lieu récréatif pour toute la famille et le plus grand centre du genre au Canada, situé aux abords du CESM (avenue Papineau). Il permet à chaque visiteur de vivre des sensations mémorables dans de vastes espaces sécuritaires et surveillés pour la pratique du patin à roues alignées, du skateboard et du BMX.</li>\n<li>\n<p>Stade de soccer de Montréal<br />À l&#039;intérieur comme à l&#039;extérieur, tout a été pensé pour offrir aux quelques dizaines de milliers de joueurs de soccer de la ville, les meilleures conditions possibles pour pratiquer leur sport. Grâce à ses plateaux sportifs et à ses espaces connexes qui répondent à des normes de qualité élevées.</p>\n</li>\n</ul>\n<p>&nbsp;</p>"
+					},
+					"oiseau_vedette": {
+						"nom": {
+							"__cdata": "Crécerelle d&#039;Amérique"
+						},
+						"nom_scientifique": {
+							"__cdata": "Falco sparverius"
+						},
+						"description_fr": {
+							"__cdata": "<p>Ce petit rapace, de la taille du Merle d&#039;Amérique, appartient à la famille des faucons. Il est le plus petit des oiseaux de proie du Québec et le plus coloré. Son dos et le dessus de sa queue sont roux; il a aussi deux lignes noires de chaque côté du visage. En vol, la silhouette typique de faucon, ailes pointues et queue longue et étroite, est bien visible. Du haut de son perchoir, la queue de la crécerelle est souvent animée de soubresauts. En zone urbaine, il peut être observé perché sur les fils électriques, un poteau de téléphone ou un édifice. Toutefois, la Crécerelle d&#039;Amérique aime avant tout les espaces ouverts tels que les champs, les clairières, l&#039;orée des bois. Elle y recherche activement son repas, dont le menu est fort varié : petits mammifères (souris et mulots), petits passereaux, gros insectes (criquets, cigales, libellules et coléoptères). À l&#039;occasion, elle peut être aperçue près des mangeoires en hiver, à l&#039;affût de petits oiseaux. Le déboisement et le défrichement des terres au cours du siècle passé ont favorisé cette espèce puisqu&#039;elle a profité de l&#039;expansion des milieux ouverts, ce qui a permis à sa population d&#039;augmenter. Elle niche au Québec, et la plupart des individus migrent plus au sud pendant l&#039;hiver. Elle construit son nid dans une cavité d&#039;arbre, comme un ancien trou de pic, dans une anfractuosité de bâtiment ou s&#039;installe dans des nichoirs artificiels. La femelle pond généralement 4 ou 5 ufs que les deux parents couvent durant 30 jours environ. Les petits demeurent au nid une trentaine de jours, jusqu&#039;à ce qu&#039;ils soient aptes à l&#039;envol, puis dépendent encore des adultes pendant 14 à 20 jours.</p>"
+						},
+						"photo": {
+							"url": {
+								"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/me_ois_crecerelle_d_amerique_id21.jpg"
+							},
+							"alt_fr": {
+								"__cdata": ""
+							},
+							"cible_fr": {
+								"__cdata": ""
+							}
+						},
+						"_id": "21"
+					},
+					"interets_floristiques": "",
+					"interets_historiques": ""
+				},
+				"section_informations": {
+					"carte": {
+						"coordonnees": {
+							"__cdata": "45.560638621629025, -73.63410472869873"
+						},
+						"zoom": {
+							"__cdata": "14"
+						},
+						"centerpoint": {
+							"__cdata": "45.56084761645867,-73.63304843902586"
+						}
+					},
+					"lieux": {
+						"lieu": [
+							{
+								"nom_fr": {
+									"__cdata": "Pavillon de la TOHU (Programmation complète au www.tohu.ca)"
+								},
+								"adresse_fr": {
+									"__cdata": "<p>2345, rue Jarry Est (angle d&#039;Iberville)<br />Montréal (QC) H1Z 4P3</p>\n<p>INFO-TOHU et billetterie<br />T. (514) 376-TOHU (8648)<br />T. 1 888 376-TOHU (8648)<br /><a href=\"mailto:info@tohu.ca\" target=\"_blank\">info@tohu.ca</a></p>"
+								},
+								"coordonnees": {
+									"__cdata": "45.556251537226295, -73.61653089523315"
+								},
+								"telephone": {
+									"numero_fr": {
+										"__cdata": "514 376-8648"
+									},
+									"poste": {
+										"__cdata": ""
+									}
+								},
+								"stationnement_fr": {
+									"__cdata": "<p>La TOHU met à votre disposition un large espace de stationnement. (8 $) Les revenus amassés serviront entièrement à la réalisation de la mission de la TOHU.<br />Deux stationnements gratuits sont disponibles pour les visiteurs : coin Émile-Journault et Papineau ; près de la rue Paul-Boutet, près de l&#039;entrée principale du parc.</p>"
+								},
+								"horaire_fr": {
+									"__cdata": "<p>Billetterie ouverte 7 jours, de 9 h à 17 h, et jusqu&#039;à 20 h 30 les soirs de spectacles.<br />Modes de paiement acceptés : Comptant, Interac, Visa et Mastercard</p>\n<p><strong>Courriel</strong><br /><a href=\"mailto:info@tohu.ca\" target=\"_blank\">info@tohu.ca</a></p>\n<p><strong>Pour se rendre à la Tohu<br />Transport en commun</strong><br />Métro Jarry, autobus 193 Est<br />Métro D&#039;Iberville, autobus 94 Nord</p>\n<p><strong>En voiture</strong><br />La TOHU est située en bordure de l&#039;autoroute métropolitaine.</p>\n<p>De l&#039;autoroute métropolitaine (A-40)<br />Direction Est : Sortie 74  Iberville<br />Direction Ouest : Sortie 75  Saint-Michel</p>\n<p>À 10 minutes du pont pont-tunnel Louis-Hippolyte Lafontaine<br />À 15 minutes du pont Jacques-Cartier<br />À 20 minutes du pont Champlain<br />À 5 minutes du pont Papineau<br />À 20 minutes du centre-ville de Montréal</p>\n<p><strong>La TOHU est un organisme adhérant à la Vignette d&#039;accompagnement touristique et de loisir et rend son lieu facilement accessible aux personnes à mobilité réduite.</strong></p>"
+								},
+								"_id": "31",
+								"_accessibilite": "1"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Le TAZ (Programmation complète au www.taz.ca)"
+								},
+								"adresse_fr": {
+									"__cdata": "<p>8931, avenue Papineau</p>\n<p>Montréal (Québec)</p>\n<p>H2M 0A5</p>\n<p><a href=\"mailto:taz@taz.ca\" target=\"_blank\">taz@taz.ca</a>&nbsp;<br /><a href=\"http://www.taz.ca/\" target=\"_blank\">www.taz.ca</a></p>"
+								},
+								"coordonnees": {
+									"__cdata": "45.55847517075888, -73.62934112548828"
+								},
+								"telephone": {
+									"numero_fr": {
+										"__cdata": "514 284-0051"
+									},
+									"poste": {
+										"__cdata": ""
+									}
+								},
+								"stationnement_fr": {
+									"__cdata": "<p>Gratuit</p>"
+								},
+								"horaire_fr": {
+									"__cdata": "<p>Horaire :<br />Ouvert toute l&#039;année</p>\n<p><strong>Skateboard  Trottinette  Patin  BMX</strong><br />Le TAZ est la référence en skatepark au Canada. Il propose une programmation chargée d&#039;adrénaline, toute l&#039;année. Avec son organisation de fêtes d&#039;enfants et sa sélection de cours, le TAZ est un espace récréatif pour toute la famille. Venez vous élancer sur roues sur un immense parcours intérieur urbain, à la fois sécuritaire et surveillé. Un espace de grimpe ainsi qu&#039;une zone d&#039;essai de slackline sont aussi disponibles. Au TAZ, tout le monde a le même but : se dépasser !</p>\n<p><strong>Roulodôme :</strong> <br />10 h à 18 h (samedi et dimanche) <br />10 h à 13 h (réservé aux 13 ans et moins)</p>\n<p><strong>Skatepark :&nbsp;&nbsp;</strong><br />15 h à 21 h (mardi au vendredi)<br />13 h à 21 h du 24 juin au 30 août 2016<br />13h à 21h (samedi et dimanche)<br />10 h à 13 h (réservé aux 13 ans et moins)</p>\n<p><strong>Pour s&#039;y rendre</strong><br /><strong>En transport en commun</strong><br />- Métro Crémazie et Fabre<br />- Autobus 45</p>\n<p>&nbsp;</p>"
+								},
+								"_id": "39",
+								"_accessibilite": "1"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "Stade de soccer du CESM"
+								},
+								"adresse_fr": {
+									"__cdata": "<p>9235 Papineau,</p>\n<p>Montreal (Québec) H2M 2G5</p>"
+								},
+								"coordonnees": {
+									"__cdata": "45.561906605410414, -73.63543510437012"
+								},
+								"telephone": {
+									"numero_fr": {
+										"__cdata": "514 872-3668"
+									},
+									"poste": {
+										"__cdata": ""
+									}
+								},
+								"stationnement_fr": {
+									"__cdata": "<p>Stationnements réservés, rampe d&#039;accès, portes automatiques, toilettes adaptées, aires spécialement aménagées aux abords des gradins.</p>"
+								},
+								"horaire_fr": {
+									"__cdata": "<p>8 h à 23 h (du lundi au vendredi)<br />8 h à 22 h (samedi et dimanche)<br />L&#039;horaire peut changer en fonction de la programmation.</p>\n<p><strong>Pour se rendre au stade de soccer du CESM :</strong><br /><strong>Transport en commun&nbsp;</strong> <br />Métro Crémazie, autobus 54<br />Métro Fabre, autobus 45<br />Métro Sauvé, autobus 121</p>\n<p><strong>En voiture</strong> <br />Sortie Papineau, boulevard Métropolitain vers le nord (le stade est situé à moins de deux kilomètres).</p>"
+								},
+								"_id": "41",
+								"_accessibilite": "1"
+							}
+						]
+					},
+					"adresse_fr": {
+						"__cdata": "<p><strong>TOHU- Pavillon d&#039;acceuil</strong></p>\n<p><strong>T: </strong>514-376- TOHU (8648)</p>\n<p>T: 1-888-376-TOHU (8648) 2345, rue Jarry Est</p>\n<p>Montréal (Québec), H1Z 4P3</p>"
+					},
+					"pour_sy_rendre_fr": {
+						"__cdata": "<p><strong>Pour se rendre à la Tohu</strong><br /><strong>Transport en commun</strong><br />Métro Jarry, autobus 193 Est<br />Métro D&#039;Iberville, autobus 94 Nord<br /><strong>En voiture</strong><br />La TOHU est située en bordure de l&#039;autoroute métropolitaine.<br />De l&#039;autoroute métropolitaine (A-40)<br />Direction Est : Sortie 74  Iberville<br />Direction Ouest : Sortie 75  Saint-Michel<br />À 10 minutes du pont pont-tunnel Louis-Hippolyte Lafontaine<br />À 15 minutes du pont Jacques-Cartier<br />À 20 minutes du pont Champlain<br />À 5 minutes du pont Papineau<br />À 20 minutes du centre-ville de Montréal</p>"
+					},
+					"tarification_fr": {
+						"__cdata": "<p>La TOHU met à votre disposition un large espace de stationnement. Coût : 8 $ Les revenus amassés serviront entièrement à la réalisation de la mission de la TOHU.</p>"
+					},
+					"a_noter_inf_fr": {
+						"__cdata": "<p><em>Marche et vélo :</em> <strong>En raison de travaux dans le parc, certaines portions de la voie polyvalente, seront fermées jusqu&#039;au printemps 2017.</strong></p>"
+					},
+					"nb_hectares": {
+						"__cdata": "157"
+					},
+					"documents": {
+						"document": {
+							"titre_fr": {
+								"__cdata": "Carte du parc Frédéric-Back"
+							},
+							"url_fr": {
+								"__cdata": "http://montreal2.qc.ca/rep_parcs/media/documents/application/pdf_doc_cesm_parc_f._back_carte_hiver_11x17_lr_id42.pdf"
+							},
+							"poids_pages": {
+								"_nb_octets": "4141968",
+								"_nb_pages": "1",
+								"__cdata": " [3,95 Mo &#8211; 1 page]"
+							},
+							"_id": "42"
+						}
+					},
+					"accessibilite_fr": {
+						"__cdata": "<p>Le parc est accessible à 100 % grâce à un sentier polyvalent. Le&nbsp;pavillon de la TOHU est un modèle d&#039;accessibilité et d&#039;adaptation universelle, les toilettes sont adaptées, ainsi qu&#039; au chalet du parc Champdoré. Places de stationnement réservées.</p>\n<p>La TOHU est un organisme adhérant à la Vignette d&#039;accompagnement touristique et de loisir et rend son lieu facilement accessible aux gens en fauteuil roulant.</p>\n<p>Stade Soccer CESM: Adapté pour les personnes à mobilité réduite.</p>"
+					},
+					"partenaires": {
+						"partenaire": [
+							{
+								"nom_fr": {
+									"__cdata": "Le TAZ"
+								},
+								"site": {
+									"nom_fr": {
+										"__cdata": "taz.ca"
+									},
+									"url_fr": {
+										"__cdata": "http://taz.ca"
+									}
+								},
+								"logo": {
+									"url_fr": {
+										"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/tb_prt_taz_logo_noir_v2_id9.jpg"
+									},
+									"alt_fr": {
+										"__cdata": "Logo du TAZ"
+									}
+								},
+								"_id": "9"
+							},
+							{
+								"nom_fr": {
+									"__cdata": "TOHU"
+								},
+								"site": {
+									"nom_fr": {
+										"__cdata": "tohu.ca"
+									},
+									"url_fr": {
+										"__cdata": "tohu.ca"
+									}
+								},
+								"logo": {
+									"url_fr": {
+										"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/bd_prc_logo_tohu_b_grandsparcsfr_petit.jpg_id10.jpg"
+									},
+									"alt_fr": {
+										"__cdata": "TOHU"
+									}
+								},
+								"_id": "10"
+							}
+						]
+					},
+					"liste_voir_aussi": {
+						"voir_aussi": [
+							{
+								"titre_fr": {
+									"__cdata": "TOHU, la Cité des arts du cirque"
+								},
+								"url_fr": {
+									"__cdata": "http://www.tohu.ca"
+								},
+								"_id": "43"
+							},
+							{
+								"titre_fr": {
+									"__cdata": "Le TAZ"
+								},
+								"url_fr": {
+									"__cdata": "http://www.taz.ca"
+								},
+								"_id": "49"
+							}
+						]
+					}
+				},
+				"section_amenagement": {
+					"amenagement_fr": ""
+				},
+				"_id": "86"
+			}
+		},
+		"activites": {
+			"activite": [
+				{
+					"activite_nom_fr": {
+						"__cdata": "Activité pour les groupes"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=113"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-13 12:27:54"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 15:18:27"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/13687321"
+							},
+							{
+								"_id": "way/12345678"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+							},
+							{
+								"__cdata": "Parc du Mont-Royal"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.560638621629025, -73.63410472869873"
+							},
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "113"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Activités thématiques HIVER 2017"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Thématiques"
+						},
+						"_id": "26"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=102"
+					},
+					"date_creation": {
+						"__cdata": "2016-11-17 13:53:53"
+					},
+					"date_modification": {
+						"__cdata": "2016-12-14 10:50:17"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": "relation/1607592"
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc Jean-Drapeau"
+							},
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Saraguay"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.50374799999999, -73.52912500000002"
+							},
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							},
+							{
+								"__cdata": "45.5153902, -73.7404646"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "102"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Camps de jour de la relâche scolaire  HIVER 2017"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Camps"
+						},
+						"_id": "22"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=112"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-13 11:58:29"
+					},
+					"date_modification": {
+						"__cdata": "2016-12-14 10:28:59"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/13687321"
+							},
+							{
+								"_id": "way/465653962"
+							},
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": ""
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+							},
+							{
+								"__cdata": "Parc des Rapides"
+							},
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.560638621629025, -73.63410472869873"
+							},
+							{
+								"__cdata": "45.4277528, -73.58979629999999"
+							},
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "112"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Camps de jour été 2017"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Camps"
+						},
+						"_id": "22"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=122"
+					},
+					"date_creation": {
+						"__cdata": "2017-01-18 10:23:09"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 15:14:23"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": {
+							"_id": "86"
+						},
+						"nom_fr": {
+							"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+						},
+						"coordonnees": {
+							"__cdata": "45.560638621629025, -73.63410472869873"
+						}
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "122"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Circuit d&#039;interprétation"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Culturelle"
+						},
+						"_id": "23"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=108"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-13 11:34:27"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 13:45:32"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/465653962"
+							},
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc des Rapides"
+							},
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.4277528, -73.58979629999999"
+							},
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "108"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Conditionnement  physique"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": "<p>Votre&nbsp;gym à ciel ouvert avec <em>Cardio plein air</em>. Cours de conditionnement physique de groupe sécuritaire donnés par des instructeurs certifiés et dynamiques. Disponibles toute l&#039;année.</p>"
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=58"
+					},
+					"date_creation": {
+						"__cdata": "2012-11-26 11:14:37"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 13:45:46"
+					},
+					"tarification_fr": {
+						"__cdata": "<p>Renseignements : 1 877 327-5530</p>\n<p>&nbsp;</p>"
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/164828569"
+							},
+							{
+								"_id": "way/39707569"
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc Angrignon"
+							},
+							{
+								"__cdata": "Parc de la Promenade-Bellerive"
+							},
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.4445195, -73.60173200000003"
+							},
+							{
+								"__cdata": "45.6035061, -73.50978859999998"
+							},
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": "<p><strong>Connaissez-vous les règlements des grands parcs?</strong></p>\n<p>Dans le but d&#039;assurer la protection des ressources naturelles et la sécurité du public, plusieurs règlements sont en vigueur dans les grands parcs. Ces règlements s&#039;appliquent selon qu&#039;il s&#039;agit d&#039;un grand parc relevant de l&#039;agglomération de Montréal ou du conseil municipal de la Ville de Montréal. Quiconque contrevient à ces règlements commet une infraction et est passible d&#039;une amende de 100 $ à 1 000 $.</p>"
+						}
+					},
+					"_id": "58"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Exposition"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Culturelle"
+						},
+						"_id": "23"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=114"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-13 12:35:48"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 13:46:01"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": "way/117595232"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc René-Lévesque"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.4280994, -73.6758868"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "114"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Glissade"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": {
+						"url": {
+							"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/me_act_glissade_copie_id61.jpg"
+						},
+						"alt_fr": {
+							"__cdata": "Glissade"
+						},
+						"credit_fr": {
+							"__cdata": "Ville de Montréal"
+						}
+					},
+					"description_fr": {
+						"__cdata": "<p>Plusieurs grands parcs mettent à la disposition de visiteurs une ou deux buttes de glissade.</p>"
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=61"
+					},
+					"date_creation": {
+						"__cdata": "2012-12-04 12:55:20"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-17 12:59:07"
+					},
+					"tarification_fr": {
+						"__cdata": "<p>Gratuit</p>"
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": "way/20226098"
+							},
+							{
+								"_id": "way/87382614"
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc Jarry"
+							},
+							{
+								"__cdata": "Parc Maisonneuve"
+							},
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.5353481, -73.62826819999998"
+							},
+							{
+								"__cdata": "45.561201, -73.55485019999998"
+							},
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": "<p><a href=\"http://ville.montreal.qc.ca/portal/page?_pageid=5798,94913638&amp;_dad=portal&amp;_schema=PORTAL\" target=\"_blank\">Pour connaître les conditions des buttes pour la glissade des parcs en arrondissement</a></p>"
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": "<p><strong>Connaissez-vous les règlements des grands parcs?</strong></p>\n<p>Dans le but d&#039;assurer la protection des ressources naturelles et la sécurité du public, plusieurs règlements sont en vigueur dans les grands parcs. Ces règlements s&#039;appliquent selon qu&#039;il s&#039;agit d&#039;un grand parc relevant de l&#039;agglomération de Montréal ou du conseil municipal de la Ville de Montréal. Quiconque contrevient à ces règlements commet une infraction et est passible d&#039;une amende de 100 $ à 1 000 $.</p>"
+						}
+					},
+					"_id": "61"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Initiation loisirs de plein air"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=111"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-13 11:56:03"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 13:46:23"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": {
+							"_id": "way/129405402"
+						},
+						"nom_fr": {
+							"__cdata": "Parc des Rapides"
+						},
+						"coordonnees": {
+							"__cdata": "45.4277528, -73.58979629999999"
+						}
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "111"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Marche"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=106"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-13 10:59:01"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-18 11:31:07"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/13687321"
+							},
+							{
+								"_id": "way/164828569"
+							},
+							{
+								"_id": "way/129405402"
+							},
+							{
+								"_id": "way/279478523"
+							},
+							{
+								"_id": "relation/1607592"
+							},
+							{
+								"_id": "way/49939935"
+							},
+							{
+								"_id": "way/87382614"
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+							},
+							{
+								"__cdata": "Parc Angrignon"
+							},
+							{
+								"__cdata": "Parc des Rapides"
+							},
+							{
+								"__cdata": "Parc Jarry"
+							},
+							{
+								"__cdata": "Parc Jean-Drapeau"
+							},
+							{
+								"__cdata": "Parc Jeanne-Mance"
+							},
+							{
+								"__cdata": "Parc Maisonneuve"
+							},
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Saraguay"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.560638621629025, -73.63410472869873"
+							},
+							{
+								"__cdata": "45.4445195, -73.60173200000003"
+							},
+							{
+								"__cdata": "45.4277528, -73.58979629999999"
+							},
+							{
+								"__cdata": "45.5353481, -73.62826819999998"
+							},
+							{
+								"__cdata": "45.50374799999999, -73.52912500000002"
+							},
+							{
+								"__cdata": "45.5152453, -73.58302349999997"
+							},
+							{
+								"__cdata": "45.561201, -73.55485019999998"
+							},
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							},
+							{
+								"__cdata": "45.5153902, -73.7404646"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "106"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Observation hivernale des oiseaux"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Thématiques"
+						},
+						"_id": "26"
+					},
+					"photo": {
+						"url": {
+							"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/me_act_bdl_fete_des_mitaines_2_id63.jpg"
+						},
+						"alt_fr": {
+							"__cdata": "Observation des oiseaux"
+						},
+						"credit_fr": {
+							"__cdata": "Ville de Montréal"
+						}
+					},
+					"description_fr": {
+						"__cdata": "<p>Des mangeoires à oiseaux sont placées ici et là pour faciliter l&#039;observation. Ouvrez l&#039;oeil!</p>\n<p>Partez en pleine nature en compagnie d&#039;un naturaliste pour tout savoir ou presque sur la faune ailée de nos grands parcs.</p>"
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=63"
+					},
+					"date_creation": {
+						"__cdata": "2012-12-04 13:06:00"
+					},
+					"date_modification": {
+						"__cdata": "2016-12-13 10:48:31"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/13687321"
+							},
+							{
+								"_id": "way/129405402"
+							},
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+							},
+							{
+								"__cdata": "Parc des Rapides"
+							},
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.560638621629025, -73.63410472869873"
+							},
+							{
+								"__cdata": "45.4277528, -73.58979629999999"
+							},
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": "<p><strong>Connaissez-vous les règlements des grands parcs?</strong></p>\n<p>Dans le but d&#039;assurer la protection des ressources naturelles et la sécurité du public, plusieurs règlements sont en vigueur dans les grands parcs. Ces règlements s&#039;appliquent selon qu&#039;il s&#039;agit d&#039;un grand parc relevant de l&#039;agglomération de Montréal ou du conseil municipal de la Ville de Montréal. Quiconque contrevient à ces règlements commet une infraction et est passible d&#039;une amende de 100 $ à 1 000 $.&nbsp;</p>"
+						}
+					},
+					"_id": "63"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Paraski"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=116"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-13 13:16:21"
+					},
+					"date_modification": {
+						"__cdata": "2016-12-13 13:17:19"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc-nature de l&#039;Anse-à-l&#039;Orme"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.45367359200172, -73.93768787384033"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "116"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Patin"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": {
+						"url": {
+							"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/me_act_suzanne_marinier_istock_000002852924medium_id72.jpg"
+						},
+						"alt_fr": {
+							"__cdata": "Patineurs au Lac aux Castors"
+						},
+						"credit_fr": {
+							"__cdata": "Ville de Montréal"
+						}
+					},
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=72"
+					},
+					"date_creation": {
+						"__cdata": "2012-12-04 17:11:16"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-09 16:26:29"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": "way/279478523"
+							},
+							{
+								"_id": "way/49939935"
+							},
+							{
+								"_id": "way/93829464"
+							},
+							{
+								"_id": "way/87382614"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc Jarry"
+							},
+							{
+								"__cdata": "Parc Jeanne-Mance"
+							},
+							{
+								"__cdata": "Parc La Fontaine"
+							},
+							{
+								"__cdata": "Parc Maisonneuve"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.5353481, -73.62826819999998"
+							},
+							{
+								"__cdata": "45.5152453, -73.58302349999997"
+							},
+							{
+								"__cdata": "45.52636380000001, -73.56934480000001"
+							},
+							{
+								"__cdata": "45.561201, -73.55485019999998"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": "<p><a href=\"http://ville.montreal.qc.ca/portal/page?_pageid=5798,94909650&amp;_dad=portal&amp;_schema=PORTAL\" target=\"_blank\">Pour connaître les conditions de glace des patinoires extérieur </a></p>"
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": "<p><strong>Connaissez-vous les règlements des grands parcs?</strong></p>\n<p>Dans le but d&#039;assurer la protection des ressources naturelles et la sécurité du public, plusieurs règlements sont en vigueur dans les grands parcs. Ces règlements s&#039;appliquent selon qu&#039;il s&#039;agit d&#039;un grand parc relevant de l&#039;agglomération de Montréal ou du conseil municipal de la Ville de Montréal. Quiconque contrevient à ces règlements commet une infraction et est passible d&#039;une amende de 100 $ à 1 000 $.&nbsp;</p>"
+						}
+					},
+					"_id": "72"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Patin à roues alignées (intérieur)"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=119"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-19 11:31:19"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 13:46:43"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": {
+							"_id": "86"
+						},
+						"nom_fr": {
+							"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+						},
+						"coordonnees": {
+							"__cdata": "45.560638621629025, -73.63410472869873"
+						}
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "119"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Pêche sur glace"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": "<p>La pêche sur glace peut se pratiquer.<br /><strong>Activité libre.</strong></p>"
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=89"
+					},
+					"date_creation": {
+						"__cdata": "2015-12-03 09:41:57"
+					},
+					"date_modification": {
+						"__cdata": "2016-12-13 10:49:02"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": {
+							"_id": ""
+						},
+						"nom_fr": {
+							"__cdata": "Parc-nature de l&#039;Anse-à-l&#039;Orme"
+						},
+						"coordonnees": {
+							"__cdata": "45.45367359200172, -73.93768787384033"
+						}
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "89"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Planche à roulette (intérieur)"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=120"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-19 11:33:55"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 13:47:07"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": {
+							"_id": "way/13687321"
+						},
+						"nom_fr": {
+							"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+						},
+						"coordonnees": {
+							"__cdata": "45.560638621629025, -73.63410472869873"
+						}
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "120"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Raquette"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": {
+						"url": {
+							"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/me_act_me_act_raquette_istock_000011150205_large_id91_id65.jpg"
+						},
+						"alt_fr": {
+							"__cdata": "Raquette"
+						},
+						"credit_fr": {
+							"__cdata": "Ville de Montréal"
+						}
+					},
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=65"
+					},
+					"date_creation": {
+						"__cdata": "2012-12-04 13:53:26"
+					},
+					"date_modification": {
+						"__cdata": "2016-12-13 11:07:37"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/13687321"
+							},
+							{
+								"_id": "way/164828569"
+							},
+							{
+								"_id": "way/279478523"
+							},
+							{
+								"_id": "way/49939935"
+							},
+							{
+								"_id": "way/4767368"
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							},
+							{
+								"_id": ""
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+							},
+							{
+								"__cdata": "Parc Angrignon"
+							},
+							{
+								"__cdata": "Parc Jarry"
+							},
+							{
+								"__cdata": "Parc Jeanne-Mance"
+							},
+							{
+								"__cdata": "Parc La Fontaine"
+							},
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							},
+							{
+								"__cdata": "Parc-nature du Ruisseau-De Montigny"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.560638621629025, -73.63410472869873"
+							},
+							{
+								"__cdata": "45.4445195, -73.60173200000003"
+							},
+							{
+								"__cdata": "45.5353481, -73.62826819999998"
+							},
+							{
+								"__cdata": "45.5152453, -73.58302349999997"
+							},
+							{
+								"__cdata": "45.52636380000001, -73.56934480000001"
+							},
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							},
+							{
+								"__cdata": "45.6268231, -73.61238249999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "65"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Semaine de relâche"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Camps"
+						},
+						"_id": "22"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=121"
+					},
+					"date_creation": {
+						"__cdata": "2017-01-10 12:01:57"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-10 12:04:02"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "121"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Ski de fond"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": {
+						"url": {
+							"__cdata": "http://montreal2.qc.ca/rep_parcs/media/images/application/me_act__mg_1098_web_id66.jpg"
+						},
+						"alt_fr": {
+							"__cdata": "Ski de fond"
+						},
+						"credit_fr": {
+							"__cdata": "Ville de Montréal"
+						}
+					},
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=66"
+					},
+					"date_creation": {
+						"__cdata": "2012-12-04 13:58:18"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-10 15:39:31"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/164828569"
+							},
+							{
+								"_id": "way/39707569"
+							},
+							{
+								"_id": "way/129405402"
+							},
+							{
+								"_id": "way/12345678"
+							},
+							{
+								"_id": "way/20226098"
+							},
+							{
+								"_id": "way/87382614"
+							},
+							{
+								"_id": "way/117595232"
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc Angrignon"
+							},
+							{
+								"__cdata": "Parc de la Promenade-Bellerive"
+							},
+							{
+								"__cdata": "Parc des Rapides"
+							},
+							{
+								"__cdata": "Parc du Mont-Royal"
+							},
+							{
+								"__cdata": "Parc Jarry"
+							},
+							{
+								"__cdata": "Parc Maisonneuve"
+							},
+							{
+								"__cdata": "Parc René-Lévesque"
+							},
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.4445195, -73.60173200000003"
+							},
+							{
+								"__cdata": "45.6035061, -73.50978859999998"
+							},
+							{
+								"__cdata": "45.4277528, -73.58979629999999"
+							},
+							{
+								"__cdata": "45.4987201, -73.60028310000001"
+							},
+							{
+								"__cdata": "45.5353481, -73.62826819999998"
+							},
+							{
+								"__cdata": "45.561201, -73.55485019999998"
+							},
+							{
+								"__cdata": "45.4280994, -73.6758868"
+							},
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": "<p><a href=\"http://ville.montreal.qc.ca/portal/page?_pageid=5798,94913628&amp;_dad=portal&amp;_schema=PORTAL\" target=\"_blank\">Pour connaître les conditions de sentiers de ski de fond des parcs en arrondissement</a></p>"
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": "<p><strong>Connaissez-vous les règlements des grands parcs?</strong></p>\n<p>Dans le but d&#039;assurer la protection des ressources naturelles et la sécurité du public, plusieurs règlements sont en vigueur dans les grands parcs. Ces règlements s&#039;appliquent selon qu&#039;il s&#039;agit d&#039;un grand parc relevant de l&#039;agglomération de Montréal ou du conseil municipal de la Ville de Montréal. Quiconque contrevient à ces règlements commet une infraction et est passible d&#039;une amende de 100 $ à 1 000 $.</p>"
+						}
+					},
+					"_id": "66"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Sorties de soirée Hiver 2017"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Thématiques"
+						},
+						"_id": "26"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=117"
+					},
+					"date_creation": {
+						"__cdata": "2016-12-14 11:16:15"
+					},
+					"date_modification": {
+						"__cdata": "2016-12-14 11:20:58"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": ""
+							},
+							{
+								"_id": "way/38879758"
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Parc-nature de l&#039;Île-de-la-Visitation"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							},
+							{
+								"__cdata": "Parc-nature du Bois-de-Liesse"
+							},
+							{
+								"__cdata": "Parc-nature du Cap-Saint-Jacques"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.578172, -73.65772500000003"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							},
+							{
+								"__cdata": "45.5063662, -73.7635482"
+							},
+							{
+								"__cdata": "45.4645391, -73.93155079999997"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "117"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Vélo d&#039;hiver"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=103"
+					},
+					"date_creation": {
+						"__cdata": "2016-11-24 09:50:00"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 14:46:12"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": [
+							{
+								"_id": "way/13687321"
+							},
+							{
+								"_id": "way/20226098"
+							},
+							{
+								"_id": "relation/1607592"
+							},
+							{
+								"_id": ""
+							}
+						],
+						"nom_fr": [
+							{
+								"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+							},
+							{
+								"__cdata": "Parc Jarry"
+							},
+							{
+								"__cdata": "Parc Jean-Drapeau"
+							},
+							{
+								"__cdata": "Parc-Nature de la Pointe-Aux-Prairies"
+							}
+						],
+						"coordonnees": [
+							{
+								"__cdata": "45.560638621629025, -73.63410472869873"
+							},
+							{
+								"__cdata": "45.5353481, -73.62826819999998"
+							},
+							{
+								"__cdata": "45.50374799999999, -73.52912500000002"
+							},
+							{
+								"__cdata": "45.6829483, -73.50364189999999"
+							}
+						]
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "103"
+				},
+				{
+					"activite_nom_fr": {
+						"__cdata": "Vélo intérieur"
+					},
+					"categorie": {
+						"categorie_fr": {
+							"__cdata": "Sportives"
+						},
+						"_id": "21"
+					},
+					"photo": "",
+					"description_fr": {
+						"__cdata": ""
+					},
+					"url_fiche_activite_fr": {
+						"__cdata": "http://ville.montreal.qc.ca/pls/portal/url/page/grands_parcs_fr/rep_parcs/fiche_activite?id=79"
+					},
+					"date_creation": {
+						"__cdata": "2013-12-09 11:52:05"
+					},
+					"date_modification": {
+						"__cdata": "2017-01-23 13:47:28"
+					},
+					"tarification_fr": {
+						"__cdata": ""
+					},
+					"info_pratiques_fr": {
+						"__cdata": ""
+					},
+					"parcs": {
+						"parc": {
+							"_id": "way/13687321"
+						},
+						"nom_fr": {
+							"__cdata": "Complexe environnemental de Saint-Michel (CESM) - Parc Frédéric-Back"
+						},
+						"coordonnees": {
+							"__cdata": "45.560638621629025, -73.63410472869873"
+						}
+					},
+					"notes_conseils_fr": {
+						"__cdata": ""
+					},
+					"galerie_photos": "",
+					"reglements": {
+						"reglements_intro_fr": {
+							"__cdata": ""
+						}
+					},
+					"_id": "79"
+				}
+			]
+		}
+	}
+}
