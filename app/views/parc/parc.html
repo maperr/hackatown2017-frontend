@@ -1,31 +1,40 @@
-<div class="section no-pad-bot" id="index-banner"> 
-  <div class="container" ng-controller="parcCtrl"> 
-    <div class="row" ng-if="loaded"> 
-      <div class="col s12"> 
-      <h4>{{parc.name}}</h4> 
-      <h5 class="light">Évèvements</h5> 
-        <div class="card" ng-repeat="event in parc.event"> 
-          <div class="card-content">  
-            {{event}} 
-          </div> 
-        </div> 
-      </div> 
-      <div class="col m6 s12"> 
-        <h5 class="light">Fil Twitter</h5> 
-        <div class="card"> 
-          <div class="card-content"> 
-            {{parc.twitter}} 
-          </div> 
-        </div> 
-      </div> 
-      <div class="col m6 s12"> 
-        <h5 class="light">Rating</h5> 
-        <div class="card"> 
-          <div class="card-content"> 
-             {{parc.ratings}} 
-          </div> 
-        </div> 
-      </div> 
-    </div> 
-  </div> 
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container" ng-controller="parcCtrl">
+        <div class="row" ng-if="loaded">
+            <div class="col s12">
+                <h4>{{parc.name}}</h4>
+                <h5 class="light" ng-if="parc.events">Évèvements</h5>
+                <div class="card" ng-repeat="event in parc.events">
+                    <div class="card-content">
+                        <span class="card-title activator">{{event.name}}<i class="material-icons right">more_vert</i></span>
+                        {{event.start_time | date}} au {{event.end_time | date}}
+                    </div>
+                    <div class="card-action" ng-if="event.id">
+                        <a href="https://www.facebook.com/{{event.id}}" target="_blank">voir sur facebook</a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title">{{event.name}}<i class="material-icons right">close</i></span>
+                        {{event.description}}
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 s12" ng-if="parc.twitter.length > 0">
+                <h5 class="light">Fil Twitter</h5>
+                <div class="card" ng-repeat="tweet in parc.twitter">
+                    <div class="card-content">
+
+                        {{tweet.text}}
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 s12">
+                <h5 class="light">Rating</h5>
+                <div class="card">
+                    <div class="card-content">
+                        {{parc.ratings}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
