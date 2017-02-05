@@ -2,12 +2,12 @@
     <div class="container" ng-controller="mapCtrl">
         <div class="row" >
             <h4>Mes parcs</h4>
-            <div class="card green white-text" ng-if="parcs.favs.length === 0">
+            <div class="card green white-text" ng-show="parcs.favs.length === 0">
                 <div class="card-content">
                     Sélectionnez un parc sur la carte pour le mettre dans vos favoris
                 </div>
             </div>
-            <div class="collection" ng-if="parcs.favs.length > 0">
+            <div class="collection" ng-show="parcs.favs.length > 0">
                 <a class="collection-item" ng-repeat="parc in parcs.favs track by parc.id" href="#!/parc/{{ parc.id }}">
                     {{parc.name}} <i class="material-icons secondary-content">send</i>
                 </a>

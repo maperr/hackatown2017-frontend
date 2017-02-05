@@ -9,8 +9,12 @@ angular.module('myApp.map', ['ngRoute'])
   }])
 
   .controller('mapCtrl', ["$scope", "$compile", function ($scope, $compile) {
+    var favs = localStorage.getItem("favParcs");
+    if(favs){
+      favs = JSON.parse(favs);
+    }
     $scope.parcs = {
-      favs: [],
+      favs: favs || [],
       selectedPark: {},
       selectedFeature: {}
     }
@@ -61,6 +65,12 @@ angular.module('myApp.map', ['ngRoute'])
       });
 
       map.data.loadGeoJson("data/allparcs.geojson");
+      var favIds = $scope.parcs.favs.map(function(item){return item.id});
+      map.data.addListener('addfeature', function(event) {
+        if(favIds.indexOf(event.feature.f.id)!==-1){
+          event.feature.setProperty("subscribed", true);
+        }
+      });
       map.data.addListener('click', mapClickListener);
       initMapStyles();
     }
@@ -69,12 +79,14 @@ angular.module('myApp.map', ['ngRoute'])
       $scope.parcs.selectedFeature.setProperty("subscribed", true);
       $scope.parcs.selectedPark.subscribed = true;
       $scope.parcs.favs.push($scope.parcs.selectedPark);
+      localStorage.setItem("favParcs",JSON.stringify($scope.parcs.favs));
     }
 
     $scope.removePark = function (id) {
       $scope.parcs.selectedFeature.setProperty("subscribed", false);
       $scope.parcs.selectedPark.subscribed = false;
       $scope.parcs.favs = $scope.parcs.favs.filter(function (item) { return item.id !== id });
+      localStorage.setItem("favParcs",JSON.stringify($scope.parcs.favs));
     }
 
     function mapClickListener(event) {
@@ -125,7 +137,7 @@ angular.module('myApp.map', ['ngRoute'])
 
 
       map.data.addListener('mouseover', function (event) {
-        if(!event.feature.getProperty("subscribed")){
+        if (!event.feature.getProperty("subscribed")) {
           map.data.overrideStyle(event.feature, { fillColor: '#89afa4' });
         }
       });
