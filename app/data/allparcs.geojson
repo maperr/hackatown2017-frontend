@@ -166452,8 +166452,10 @@
     },
     { 
       "type": "Feature",
+      "id": "way/123456789",
        "properties": { 
          "Index_": "0225-000", 
+         "id": "way/123456789",
          "name": "Parc du Mont-royal", 
          "Generique2": "Grand parc", 
          "Shape_Leng": 11391.954902, 
