@@ -139,7 +139,7 @@ angular.module('myApp.map', ['ngRoute'])
     initMap();
   }]).component('parkDetail', {
     templateUrl: 'views/map/parkDetail.html',
-    controller: function () {
+    controller: function ($scope) {
       var ctrl = this;
 
       ctrl.subscribe = function () {
@@ -150,6 +150,68 @@ angular.module('myApp.map', ['ngRoute'])
         ctrl.onUnsubscribe({ id: this.park.id });
       };
 
+      $scope.load = function() {
+        var elemActivity = angular.element(document.querySelector('#myBarActivity'));
+        var elemPopularity = angular.element(document.querySelector('#myBarPopularity'));
+        var elemClean = angular.element(document.querySelector('#myBarClean'));
+
+        var id = setInterval(frame, 15);
+        var widthActivity = 0;
+        var widthPopularity = 0;
+        var widthClean = 0;
+
+        var percentageActivity = 100;
+        var percentagePopularity = 80;
+        var percentageClean = 60;
+
+        function frame() {
+          if (widthPopularity >= percentagePopularity && widthActivity >= percentageActivity && widthClean >= percentageClean) {
+              clearInterval(id);
+          }
+
+          if (widthPopularity < percentagePopularity) {
+              widthPopularity++;
+
+              elemPopularity[0].style.width = widthPopularity + '%';
+
+              document.getElementById("demoPopularity").innerHTML = widthPopularity * 1 + '%';
+
+              if(widthPopularity == 33) {
+                document.getElementById("myBarPopularity").className = "w3-progressbar w3-yellow";
+              } else if(widthPopularity == 66) {
+                document.getElementById("myBarPopularity").className = "w3-progressbar w3-green";
+              } 
+          }
+
+          if (widthActivity < percentageActivity) {
+              widthActivity++;
+
+              elemActivity[0].style.width = widthActivity + '%';
+
+              document.getElementById("demoActivity").innerHTML = widthActivity * 1 + '%';
+
+              if(widthActivity == 33) {
+                document.getElementById("myBarActivity").className = "w3-progressbar w3-yellow";
+              } else if(widthActivity == 66) {
+                document.getElementById("myBarActivity").className = "w3-progressbar w3-green";
+              } 
+          } 
+
+          if (widthClean < percentageClean) {
+              widthClean++;
+
+              elemClean[0].style.width = widthClean + '%';
+
+              document.getElementById("demoClean").innerHTML = widthClean * 1 + '%';
+
+              if(widthClean == 33) {
+                document.getElementById("myBarClean").className = "w3-progressbar w3-yellow";
+              } else if(widthClean == 66) {
+                document.getElementById("myBarClean").className = "w3-progressbar w3-green";
+              } 
+          } 
+        }
+      }
     },
     bindings: {
       park: '<',

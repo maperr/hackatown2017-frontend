@@ -1,5 +1,33 @@
-<div>
+<div ng-init='load()'>
     <h5>{{$ctrl.park.name || "Sans nom"}}</h5>
+    <div class="row" style="display: inline;">
+        <div class="col s4" ><img class="materialboxed" width="60" src="../../img/clean.png" style="cursor: default;"></div>
+        <div class="col s4"><img class="materialboxed" width="60" src="../../img/activity.png" style="cursor: default;"></div>
+        <div class="col s4"><img class="materialboxed" width="60" src="../../img/popularity.png" style="cursor: default;"></div>
+    </div>
+    <div class="row" style="display: inline;">
+        <div class="col s4" style="margin-top: 20px;margin-bottom: 20px;padding: 0;padding-left: 10px;padding-right: 5px;">
+            <div class="w3-progress-container">
+                <div id="myBarClean" class="w3-progressbar w3-red" style="width:20%">
+                    <div id="demoClean" class="w3-center w3-text-white">20%</div>
+                </div>
+            </div>
+        </div>
+        <div class="col s4" style="margin-top: 20px;margin-bottom: 20px;padding: 0;padding-left: 10px;padding-right: 5px;">
+            <div class="w3-progress-container">
+                <div id="myBarActivity" class="w3-progressbar w3-red" style="width:20%">
+                    <div id="demoActivity" class="w3-center w3-text-white">20%</div>
+                </div> 
+            </div>
+        </div>
+        <div class="col s4" style="margin-top: 20px;margin-bottom: 20px;padding: 0;padding-left: 10px;padding-right: 5px;">
+            <div class="w3-progress-container">
+                <div id="myBarPopularity" class="w3-progressbar w3-red" style="width:20%">
+                    <div id="demoPopularity" class="w3-center w3-text-white">20%</div>
+                </div>
+            </div>
+        </div>
+    </div>
     <a class='waves-effect waves-light btn green' ng-show="!$ctrl.park.subscribed" ng-click="$ctrl.subscribe()">Ajouter aux favoris</a>
     <a class='waves-effect waves-light btn red' ng-show="$ctrl.park.subscribed" ng-click="$ctrl.unsubscribe()">Retirer aux favoris</a>
 </div>
