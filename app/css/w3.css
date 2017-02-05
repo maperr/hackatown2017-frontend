@@ -22,3 +22,13 @@
 .w3-hover-text-white:hover {
     color: #fff!important
 }
+.w3-yellow,
+.w3-hover-yellow:hover {
+    color: #fff!important;
+    background-color: #cccc00!important
+}
+.w3-green,
+.w3-hover-green:hover {
+    color: #fff!important;
+    background-color: #33cc33!important
+}

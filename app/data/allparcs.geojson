@@ -319,9 +319,9 @@
       "type": "Feature",
       "id": "relation-1607592",
       "properties": {
-        "ratingActivity": "61",
+        "ratingActivity": "65",
         "ratingPopularity": "88",
-        "ratingClean": "95",
+        "ratingClean": "29",
         "id": "relation-1607592",
         "leisure": "park",
         "name": "Parc Jean-Drapeau",

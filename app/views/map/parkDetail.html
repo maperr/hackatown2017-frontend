@@ -1,5 +1,7 @@
-<div ng-init='load()'>
+<div ng-init='load()' style="width: 275px;">
     <h5>{{$ctrl.park.name || "Sans nom"}}</h5>
+    <img ng-if="$ctrl.park.id=='relation-1607592'" class="materialboxed" width="100%" src="../../img/parcjeandrapeau.jpg" style="cursor: default; padding-bottom: 15px">
+    <img ng-if="$ctrl.park.id=='way-108486554'" class="materialboxed" width="100%" src="../../img/parcolympique.jpg" style="cursor: default; padding-bottom: 15px">
     <div class="row" style="display: inline;">
         <div class="col s4" ><img class="materialboxed" width="60" src="../../img/clean.png" style="cursor: default;"></div>
         <div class="col s4"><img class="materialboxed" width="60" src="../../img/activity.png" style="cursor: default;"></div>
