@@ -175,9 +175,9 @@ angular.module('myApp.map', ['ngRoute'])
         var widthPopularity = 0;
         var widthClean = 0;
 
-        var percentageActivity = 100;
-        var percentagePopularity = 80;
-        var percentageClean = 60;
+        var percentageActivity = ctrl.park.ratingActivity;
+        var percentagePopularity = ctrl.park.ratingPopularity;
+        var percentageClean = ctrl.park.ratingClean;
 
         function frame() {
           if (widthPopularity >= percentagePopularity && widthActivity >= percentageActivity && widthClean >= percentageClean) {
